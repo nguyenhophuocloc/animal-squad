@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\UploadController;
-use App\Http\Controllers\Admin\Users\LoginController;
+use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\BlogController as ControllersBlogController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\MainController as ControllersMainController;
