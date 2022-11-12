@@ -147,7 +147,7 @@ class CartService
     {
         #dd($request->all());
 
-        $app_url = env('APP_URL');
+        $app_url =env('APP_ENV');
 
         $generateToken = uniqid();
         $vnpay = array(
@@ -172,7 +172,7 @@ class CartService
         $vnp_TmnCode = "ITYONMLH"; //Website ID in VNPAY System
         $vnp_HashSecret = "NKBULTSBOZUPGOHRLAXADCIEQJTXGRZO"; //Secret key
         $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-        $vnp_Returnurl = `http://$app_url/carts`;
+        $vnp_Returnurl = 'http://'.$app_url.'./carts';
         $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
         //Config input format
         //Expire
