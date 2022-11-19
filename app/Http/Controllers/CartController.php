@@ -71,11 +71,13 @@ class CartController extends Controller
             'phone' => 'required',
             'address' => 'required',
             'email' => 'required',
+            'content' => 'required',
             'payment' => 'required'
         ]);
 
         if ($request->payment == 1) {
             #COD
+            #dd($request->all());
             $this->cartService->addCart($request);
             return redirect()->back();
         } else if ($request->payment == 2) {
