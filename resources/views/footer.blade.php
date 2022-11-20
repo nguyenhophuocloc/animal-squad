@@ -131,7 +131,7 @@
                 </a>
             </div>
 
-            <p class="stext-107 cl6 txt-center">
+            {{-- <p class="stext-107 cl6 txt-center">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;<script>
                     document.write(new DaFte().getFullYear());
@@ -140,7 +140,7 @@
                     href="https://themewagon.com" target="_blank">ThemeWagon</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
-            </p>
+            </p> --}}
         </div>
     </div>
 </footer>
