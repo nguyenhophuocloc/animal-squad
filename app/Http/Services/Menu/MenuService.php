@@ -78,10 +78,15 @@ class MenuService
 
     public function getProduct($menu, $request)
     {
+        //dd($request->input('price'));
         $query = $menu->products()->select('id', 'name', 'price', 'price_sale', 'thumb')
             ->where('active', 1);
         if ($request->input('price')) {
-            $query->orderByDesc('price', $request->input('price'));
+            $query->orderBy('price', $request->input('price'));
+        }
+
+        if ($request->input('created_at')) {
+            $query->orderBy('created_at', $request->input('created_at'));
         }
         return $query->orderByDesc('id')
             ->paginate(12)->withQueryString();
