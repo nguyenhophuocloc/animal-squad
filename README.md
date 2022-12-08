@@ -11,6 +11,18 @@
 Trang chủ
 ![Trang-chu](https://user-images.githubusercontent.com/49156369/206432475-2cfe6bf3-940c-4bad-96a3-e0bf1afdf3ae.png)
 
+Danh sách sản phẩm
+![danh-sach-san-pham](https://user-images.githubusercontent.com/49156369/206433538-57436060-0488-4236-a949-41bac63d3763.png)
+
+Chi tiết sản phẩm
+![chi-tiet-san-pham](https://user-images.githubusercontent.com/49156369/206433565-2c78fad9-0300-4906-9544-6ae7ce97f7cf.png)
+
+Thanh toán
+![thanh-toan](https://user-images.githubusercontent.com/49156369/206433677-971ba1b3-e2df-4399-98a1-98a71287bf38.png)
+
+VNPAY
+![vnpay](https://user-images.githubusercontent.com/49156369/206434035-c4b422c2-ae12-4d37-9620-924ac6928ea5.png)
+
 
 ## About Laravel
 
