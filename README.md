@@ -8,6 +8,7 @@
 </p>
 
 ## Demo
+Trang chủ
 ![Trang-chu](https://user-images.githubusercontent.com/49156369/206432475-2cfe6bf3-940c-4bad-96a3-e0bf1afdf3ae.png)
 
 
