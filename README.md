@@ -23,6 +23,9 @@ Thanh toán
 VNPAY
 ![vnpay](https://user-images.githubusercontent.com/49156369/206434035-c4b422c2-ae12-4d37-9620-924ac6928ea5.png)
 
+Giao diện admin
+![san-pham](https://user-images.githubusercontent.com/49156369/206434349-fd8eb872-38dc-4cee-b633-f73706ff0197.png)
+
 
 ## About Laravel
 
